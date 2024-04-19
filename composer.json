@@ -32,21 +32,75 @@
             "module": "Laminas\\ApiTools\\Admin"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-admin-ui"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-api-problem"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-configuration"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-content-negotiation"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-content-validation"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-hal"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-mvc-auth"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-oauth2"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-provider"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-rest"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-rpc"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kersysgediminas/api-tools-versioning"
+        }
+    ],
     "require": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
-        "laminas-api-tools/api-tools": "^1.7",
-        "laminas-api-tools/api-tools-admin-ui": "^2.1",
-        "laminas-api-tools/api-tools-api-problem": "^1.6",
-        "laminas-api-tools/api-tools-configuration": "^1.6",
-        "laminas-api-tools/api-tools-content-negotiation": "^1.8",
-        "laminas-api-tools/api-tools-content-validation": "^1.12",
-        "laminas-api-tools/api-tools-hal": "^1.10",
-        "laminas-api-tools/api-tools-mvc-auth": "^1.8",
-        "laminas-api-tools/api-tools-oauth2": "^1.9",
-        "laminas-api-tools/api-tools-provider": "^1.6",
-        "laminas-api-tools/api-tools-rest": "^1.8",
-        "laminas-api-tools/api-tools-rpc": "^1.8",
-        "laminas-api-tools/api-tools-versioning": "^1.7",
+        "laminas-api-tools/api-tools": "dev-php-8.3 as 1.8.0",
+        "laminas-api-tools/api-tools-admin-ui": "dev-php-8.3 as 2.2.0",
+        "laminas-api-tools/api-tools-api-problem": "dev-php-8.3 as 1.7.0",
+        "laminas-api-tools/api-tools-configuration": "dev-php-8.3 as 1.7.0",
+        "laminas-api-tools/api-tools-content-negotiation": "dev-php-8.3 as 1.9.0",
+        "laminas-api-tools/api-tools-content-validation": "dev-php-8.3 as 1.13.0",
+        "laminas-api-tools/api-tools-hal": "dev-php-8.3 as 1.11.0",
+        "laminas-api-tools/api-tools-mvc-auth": "dev-php-8.3 as 1.9.0",
+        "laminas-api-tools/api-tools-oauth2": "dev-php-8.3 as 1.10.0",
+        "laminas-api-tools/api-tools-provider": "dev-php-8.3 as 1.7.0",
+        "laminas-api-tools/api-tools-rest": "dev-php-8.3 as 1.9.0",
+        "laminas-api-tools/api-tools-rpc": "dev-php-8.3 as 1.9.0",
+        "laminas-api-tools/api-tools-versioning": "dev-php-8.3 as 1.8.0",
         "laminas/laminas-code": "^3.5 || ^4.5",
         "laminas/laminas-eventmanager": "^3.4",
         "laminas/laminas-filter": "^2.13",
